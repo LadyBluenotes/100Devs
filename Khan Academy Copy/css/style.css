@@ -1,0 +1,146 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+li {
+  list-style: none;
+}
+
+
+/******************************************
+/* LAYOUT /*******************************************/
+
+header{
+  height: 65px;
+  overflow: hidden;
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+li>img{
+  height: 65px;
+}
+li{
+  display: inline-block;
+}
+.centernav ul{
+  padding: 0px;
+  margin: 0px;
+}
+.centernav{
+  width: 33.3333%;
+  float: left;
+  padding-top: 0%;
+  margin-top: 0%;
+  position: relative;
+  top: 0px;
+}
+.rightnav{
+  width: 33.3333%;
+  float: left;
+  text-align: left;
+}
+.leftnav{
+  width: 33.3333%;
+  float: left;
+}
+
+a{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  padding-left: 30px;
+  text-decoration: none;
+  color:#006aec;
+}
+main{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main section{
+  height: 500px;
+  width: 50%;
+  float: left;
+}
+main>section+section{
+  padding-top: 150px;
+}
+
+h1{
+  color: #21242c;
+  font-size: 53px;
+  font-family: 'Source Serif Pro', serif;
+  margin-bottom: 22px;
+}
+p{
+  color: #21242c;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 36px 0 32px 0;
+  letter-spacing: -0.1px;
+}
+
+.button{
+  display: inline-block;
+  padding: 6px 5px;
+  margin: 0;
+  border: 1px solid #006aec;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #006aec;
+  line-height: 20px;
+}
+
+main>section>img{
+  padding: 60px 0px 10px 20px;
+  width: 625px;
+}
+
+.button > a{
+  padding: 10px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.button a:link, a:visited{
+  color:white;
+  text-decoration: 1px solid lightgrey;
+}
+
+.search{
+  background-color: rgb(243, 243, 243);
+  border:none;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.courses{
+  padding-right: 25px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

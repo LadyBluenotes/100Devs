@@ -1,0 +1,72 @@
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  display:flex;
+  justify-content: right;
+  height: 50px;
+  width: 320px;
+  border: 2px solid black;
+  background: white;
+  align-items: center;
+}
+
+.display{
+  margin: 0 10px 0 0;
+  font-size: 80%;
+}
+
+.box{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.keys{
+  width: 400px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+button{
+  width: 75px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#clear{
+  background: rgba(217, 178, 211);
+}
+
+button{
+  background: rgba(177, 240, 194);
+}
+
+.operation{
+  background: rgba(178, 197, 237)
+}
+
+.calculator{
+  display: flex;
+  background: black;
+  height: 350px;
+  width: 370px;
+  padding: auto;
+  margin: auto;
+}
