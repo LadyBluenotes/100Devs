@@ -1,0 +1,99 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/* Layout */
+
+nav, ul, main{
+  display: flex;
+  justify-content: space-around;
+}
+
+ul{
+  width: 1250px;
+}
+
+main section{
+  flex-basis: 48%;
+}
+
+main div + div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;  
+}
+
+main{
+  width: 1250px;
+  margin: auto;
+}
+
+.important{
+  width: 600px;
+  height: 350px;
+  background-image: url(https://dummyimage.com/600x350/969696/fff.gif&text=insert+picture);
+}
+
+.headlines{
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+main div+div{
+  padding: 22px 0 0 0;
+}
+
+.headlines section{
+  background-image: url(https://dummyimage.com/280x180/969696/fff.gif&text=insert+picture);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  width: 1250px;
+  height: 350px;
+  margin: auto;
+}
+
+/* Styling */
+
+header{
+  background: black;
+  height: 50px;
+}
+
+header+section{
+  width: 1250px;
+  margin: auto;
+}
+
+.date{
+  display: flex;
+  justify-content: right;
+}
+
+h4{
+  display: flex;
+  align-content: flex-end;
+  width: 1250px;
+  margin: auto;
+  height: 50px;
+}
+
+a:link, a:visited, a:active, a:hover{
+  color: white;
+  text-decoration: none;
+}
