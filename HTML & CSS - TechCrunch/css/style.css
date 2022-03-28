@@ -1,0 +1,120 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+  font-family: 'Yantramanav', Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+h2>a:link, h2>a:visited, h2{
+  color: #8c8c8c;
+}
+
+h3>a:link, li h3>a:visited{
+  color: gold;
+}
+
+.login{
+  font-size: 0.75em;
+}
+
+.glass{
+  font-weight: 100;
+}
+
+h2>a:hover{
+  color: #00c56c;
+}
+li {
+  list-style-type: none;
+}
+h1, section h3, section>span{
+  font-family: 'PT Sans', sans-serif;
+}
+input{
+  width: 97px;
+}
+input, button{
+  padding-top: 45px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button{
+  font-weight: 300;
+  height: 15px;
+}
+
+br+li{
+  border-top: 2px solid grey;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+nav{
+  padding-left: 0px;
+  width: 250px;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  position: fixed;
+}
+aside{
+  float: right;
+  height: 700px;
+}
+
+main{
+  margin-left: 250px;
+  width: 700px;
+  float: left;
+}
+
+.search a:link{
+  color: gold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.float{
+  width:100%;
+}
+
+main > section > section{
+  float:left;
+  width: 33.3333%;
+}
