@@ -1,0 +1,72 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+body{
+    font-family: var(--font-sans);
+    background-image: url(../img/forest.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    border-radius: var(--radius-4);
+    border: var(--border-1) solid var(--gray-1);
+    box-shadow: var(--shadow-3);
+    width: 40%;
+    height: 100%;
+}
+
+h1, .inputfield, .footer{
+    text-align: center;
+    font-weight: var(--font-weight-5);
+}
+
+h1{
+    font-size: var(--font-size-6);
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    line-height: var(--font-lineheight-3)
+}
+
+button{
+    border-radius: var(--radius-3);
+    padding: 0.3em 0.7em;
+    margin: 0.3em 0.7em;
+    text-align: center;
+}
+
+.thelist{
+    padding: 20px;
+}
+
+.wrapper .inputfield{
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+
+.inputfield input{
+    width: 85%;
+    height: 85%;
+    border-radius: var(--radius-round);
+    margin: 4px;
+}
+
+.footer{
+    margin: 10px;
+}
+
+/* Glassmorphism Effect */
+
+.card {
+    backdrop-filter: blur(16px) saturate(143%);
+    -webkit-backdrop-filter: blur(16px) saturate(143%);
+    background-color: rgba(17, 25, 40, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
