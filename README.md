@@ -6,3 +6,5 @@ Current work includes some clones of popular websites (Khan Academy, TechCrunch 
 In addition to the HTML and CSS learned, it was applied with JavaScript to create an Ugly Calculator.
 
 Some examples of my JavaScript code using arrays, loops and basic functions take place in the JS practice folders.These were applied just for the console to log or, in some cases, manipulating the DOM. 
+
+With the current skills I have, I applied this to a personal project, making a To Do or Daily task list.
