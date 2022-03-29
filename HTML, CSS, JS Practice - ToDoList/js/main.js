@@ -15,4 +15,3 @@ import 'https://unpkg.com/open-props-css';
 // update pending tasks when a tasks is added or removed
 
 // clear all will remove all tasks from the list
-
