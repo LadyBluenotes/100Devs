@@ -8,14 +8,19 @@ Creates an array named muskateer containing values "athos", "porthos", "aramis"
 - Remove poor aramis
 - Show each array element using a for-of loop*/
 
-const muskateer = ["athos", "porthos", "aramis"];
+const muskateers = ["athos", "porthos", "aramis"];
 
-for (let i = 0; i < muskateer.length; i++) {
-  console.log(muskateer[i]);
-}
+// for (let i = 0; i < muskateer.length; i++) {
+//   console.log(muskateer[i]);
+// }
 
+muskateers.push("d'artagnan");
 
+// console.log(muskateers[3]);
 
+// muskateers.forEach(muskateer => {
+//   console.log(muskateer);
+// });
 
 // Objects
 
