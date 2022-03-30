@@ -22,6 +22,14 @@ muskateers.push("d'artagnan");
 //   console.log(muskateer);
 // });
 
+// muskateers.splice(0,1)
+
+// // console.log(muskateers);
+
+// for (const muskateer of muskateers) {
+//   console.log(muskateer)
+// }
+
 // Objects
 
 /* Write a program that creates an account object with the following characteristic:
