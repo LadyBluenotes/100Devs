@@ -1,3 +1,14 @@
+// Arrays
+
+
+
+
+
+
+
+
+// Objects
+
 /* Write a program that creates an account object with the following characteristic:
   name = Alex, 
   balance - 0, 
