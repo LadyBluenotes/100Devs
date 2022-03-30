@@ -1,8 +1,18 @@
 // Arrays
 
+/* Write a program that:
+Creates an array named muskateer containing values "athos", "porthos", "aramis"
+- Show each array element using a for loop
+- Add the "d'artagnan" element to the array
+- Show each array element using the foreach() method
+- Remove poor aramis
+- Show each array element using a for-of loop*/
 
+const muskateer = ["athos", "porthos", "aramis"];
 
-
+for (let i = 0; i < muskateer.length; i++) {
+  console.log(muskateer[i]);
+}
 
 
 
