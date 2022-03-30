@@ -42,6 +42,10 @@ Creates an array named muskateer containing values "athos", "porthos", "aramis"
 
 // console.log(sum)
 
+//Write a program that creates the following array, then calculates and shows the array's maximum value.
+
+const values = [3, 11, 7, 2, 9, 10];
+
 // Objects
 
 /* Write a program that creates an account object with the following characteristic:
