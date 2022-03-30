@@ -46,6 +46,8 @@ Creates an array named muskateer containing values "athos", "porthos", "aramis"
 
 const values = [3, 11, 7, 2, 9, 10];
 
+
+
 // Objects
 
 /* Write a program that creates an account object with the following characteristic:
