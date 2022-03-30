@@ -8,13 +8,13 @@ Creates an array named muskateer containing values "athos", "porthos", "aramis"
 - Remove poor aramis
 - Show each array element using a for-of loop*/
 
-const muskateers = ["athos", "porthos", "aramis"];
+// const muskateers = ["athos", "porthos", "aramis"];
 
-// for (let i = 0; i < muskateer.length; i++) {
-//   console.log(muskateer[i]);
-// }
+// // for (let i = 0; i < muskateer.length; i++) {
+// //   console.log(muskateer[i]);
+// // }
 
-muskateers.push("d'artagnan");
+// muskateers.push("d'artagnan");
 
 // console.log(muskateers[3]);
 
@@ -29,6 +29,11 @@ muskateers.push("d'artagnan");
 // for (const muskateer of muskateers) {
 //   console.log(muskateer)
 // }
+
+// Write a program that creates the following array, then calculates and shows the sum of its values (42 in that case).
+
+const values = [3, 11, 7, 2, 9, 10];
+
 
 // Objects
 
