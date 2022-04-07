@@ -2,10 +2,8 @@
 
 function multiplyTheseNumbers(nums){
     let products = 1;
-    for(let i = 0; i < nums.length; i++){
-        products *= nums[i];
-    }
-    alert( products);
+   arr.forEach(num => product *= num);
+   alert(product);
 }
 
 // products start at 1 so that the multiplication doesn't end up zeroing out.
