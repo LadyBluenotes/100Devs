@@ -2,10 +2,12 @@
 
 let arr = [12, 45, 23, 90, 43, 12];
 
-if (arr[0] < arr[arr.length - 1]) {
-  alert("Hi");
-} else if (arr[0] > arr[arr.length - 1]) {
-  alert("Bye");
-} else if (arr[0] === arr[arr.length - 1]) {
-  alert("We close in an hour");
+function checkThemAll(arr){
+  if (arr[0] < arr[arr.length - 1]) {
+    alert("Hi");
+  } else if (arr[0] > arr[arr.length - 1]) {
+    alert("Bye");
+  } else if (arr[0] === arr[arr.length - 1]) {
+    alert("We close in an hour");
+  }
 }
