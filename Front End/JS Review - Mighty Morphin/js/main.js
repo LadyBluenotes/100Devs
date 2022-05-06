@@ -1,11 +1,11 @@
 // *Variables*
 // Declare a variable, reassign it to your fav holiday, make sure it is in all caps, and print the value to the console
 
-let favHoliday = 'EASTER';
+let favHoliday = 'Christmas';
 
-favHoliday = 'CHRISTMAS';
+favHoliday = favHoliday.toUpperCase();
 
-console.log(favHoliday.toUpperCase())
+console.log(favHoliday);
 
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 
@@ -51,7 +51,7 @@ console.log(coinFlip());
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
 
 let takeThisDangNumber = function(num) {
-    for (let i = 0; i < num; i++) {
+    for (let i = 0; i <= num; i++) {
         console.log(coinFlip());
     }
 }
