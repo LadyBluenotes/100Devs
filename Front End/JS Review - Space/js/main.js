@@ -5,6 +5,8 @@ let arrayOfNumbers =[42, 3, -1, 12, -9, 0];
 
 let sum = arrayOfNumbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 
+alert(sum)
+
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
