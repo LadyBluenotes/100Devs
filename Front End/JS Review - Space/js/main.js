@@ -39,8 +39,8 @@ function isPalindrome (str) {
         reversed += str[i];
     }
     if (str === reversed) {
-        return true;
+        alert ("This is a palindrome");
     } else {
-    return false;
+        alert ("This is not a palindrome");
     }
 }
